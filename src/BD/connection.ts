@@ -4,7 +4,7 @@ const accesData: mysql.ConnectionOptions = {
   user: 'root',
   host: 'localhost',
   database: 'BichoKillerz',
-  password: '10111011',
+  password: '064006',
   port: 3306,
   connectionLimit: 10,
   multipleStatements: true,
