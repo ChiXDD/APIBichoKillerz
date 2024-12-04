@@ -1,4 +1,4 @@
-import connection from '../BD/connection'
+import connection from '../DB/connection'
 
 export interface Servicio {
   id: number
