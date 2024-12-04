@@ -3,10 +3,10 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 const accesData: mysql.ConnectionOptions = {
-  user: 'root',
+  user: process.env.DB_USER,
   host: 'localhost',
-  database: 'BichoKillerz',
-  password: '064006',
+  database: process.env.DB_NAME,
+  password: process.env.DB_PASSWORD,
   port: 3306,
   connectionLimit: 10,
   multipleStatements: true,

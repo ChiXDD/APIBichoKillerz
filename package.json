@@ -13,9 +13,9 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@types/bcrypt": "^5.0.2",
     "@types/body-parser": "^1.19.5",
     "@types/cors": "^2.8.17",
+    "@types/dotenv": "^6.1.1",
     "@types/express": "^5.0.0",
     "@types/node": "^22.9.0",
     "ts-node-dev": "^2.0.0",
@@ -23,20 +23,12 @@
   },
   "dependencies": {
     "axios": "^1.7.7",
-    "bcrypt": "^5.1.1",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
-<<<<<<< HEAD
     "dotenv": "^16.4.7",
-    "express": "^4.21.1",
-    "mysql2": "^3.11.5",
-    "path": "^0.12.7"
-=======
-    "dotenv": "^16.4.5",
     "express": "4.21.1",
     "mysql2": "^3.11.4",
     "path": "^0.12.7",
     "ts-node": "^10.9.2"
->>>>>>> 25686f34c87e79b4e602ad521dcf84336448c328
   }
 }
